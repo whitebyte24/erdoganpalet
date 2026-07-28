@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0F3D2E;
+  --color-primary-dark: #0A291F;
+  --color-primary-light: #165642;
+  --color-secondary: #1F6B52;
+  --color-accent: #D9A441;
+  --color-accent-hover: #C28F2C;
+  --color-wood: #8B5E3C;
+  --color-wood-light: #A7744F;
+  --color-cream: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-dark: #111827;
+  --color-dark-muted: #1F2937;
+  --color-gray-soft: #F3F4F1;
+}
+
+:root {
+  --background: #FAFAF8;
+  --foreground: #111827;
+  --primary-rgb: 15, 61, 46;
+  --accent-rgb: 217, 164, 65;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Özel Tasarım Özellikleri */
+.glass-header {
+  background: rgba(250, 250, 248, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 61, 46, 0.08);
+}
+
+.glass-dark {
+  background: rgba(17, 24, 39, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(217, 164, 65, 0.15);
+}
+
+.gradient-hero {
+  background: radial-gradient(circle at 70% 20%, rgba(31, 107, 82, 0.15) 0%, transparent 60%),
+              radial-gradient(circle at 10% 80%, rgba(139, 94, 60, 0.12) 0%, transparent 50%),
+              #FAFAF8;
+}
+
+.gradient-dark {
+  background: linear-gradient(135deg, #0F3D2E 0%, #0A291F 50%, #111827 100%);
+}
+
+.wood-pattern {
+  background-color: #0F3D2E;
+  background-image: radial-gradient(rgba(217, 164, 65, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Özel kaydırma çubuğu */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAF8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F6B52;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0F3D2E;
+}
+
+/* Animasyon Yardımcıları */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.92; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
