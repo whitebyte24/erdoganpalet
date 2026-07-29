@@ -6,7 +6,6 @@ import { ProductCategories } from '@/components/ProductCategories';
 import { WhyUs } from '@/components/WhyUs';
 import { Process } from '@/components/Process';
 import { GalleryPreview } from '@/components/GalleryPreview';
-import { CertificatesAndSectors } from '@/components/CertificatesAndSectors';
 import { CtaSection } from '@/components/CtaSection';
 
 export const metadata: Metadata = {
@@ -39,7 +38,6 @@ export default function HomePage() {
       <WhyUs />
       <Process />
       <GalleryPreview />
-      <CertificatesAndSectors />
       <CtaSection />
     </main>
   );
