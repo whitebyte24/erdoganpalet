@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Eye } from 'lucide-react';
 import { GALLERY_ITEMS } from '@/data/gallery';
 import { PalletGraphic } from '@/components/PalletGraphic';
@@ -45,11 +46,11 @@ export const GalleryPreview: React.FC = () => {
             >
               <div className="w-full h-56 bg-gray-50 relative overflow-hidden flex items-center justify-center">
                 {item.imageUrl ? (
-                  <img
+                  <Image
                     src={item.imageUrl}
                     alt={item.title}
-                    loading="lazy"
-                    decoding="async"
+                    width={400}
+                    height={300}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (

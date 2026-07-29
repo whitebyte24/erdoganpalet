@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, ShieldCheck, Check, Layers, Weight } from 'lucide-react';
 import { Product } from '@/data/products';
 import { PalletGraphic } from '@/components/PalletGraphic';
@@ -18,11 +19,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Fotoğraf / Vektörel İllüstrasyon Header */}
         <div className="w-full h-56 bg-gray-50 border-b border-gray-100 relative group-hover:bg-[#0F3D2E]/5 transition-colors overflow-hidden flex items-center justify-center">
           {product.imageUrl ? (
-            <img
+            <Image
               src={product.imageUrl}
               alt={product.name}
-              loading="lazy"
-              decoding="async"
+              width={400}
+              height={300}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           ) : (

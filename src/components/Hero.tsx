@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, ShieldCheck, Truck, Award, CheckCircle2 } from 'lucide-react';
 import { PalletGraphic } from '@/components/PalletGraphic';
 
@@ -106,9 +107,12 @@ export const Hero: React.FC = () => {
               <div className="relative glass-card p-6 rounded-2xl border border-gray-200 shadow-2xl space-y-6">
                 {/* Ürün Görseli */}
                 <div className="w-full h-64 rounded-xl overflow-hidden bg-white shadow-inner flex items-center justify-center relative">
-                  <img
+                  <Image
                     src="/images/epal_euro_pallet.jpg"
                     alt="EPAL 1 Euro Palet (80x120 cm)"
+                    width={600}
+                    height={400}
+                    priority
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-3 left-3 bg-[#0F3D2E]/90 text-[#D9A441] text-[10px] font-extrabold uppercase px-3 py-1 rounded-md shadow backdrop-blur-sm border border-[#D9A441]/30">
