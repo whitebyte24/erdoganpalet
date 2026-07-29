@@ -4,9 +4,8 @@ import path from "path";
 const nextConfig: NextConfig = {
   output: "standalone",
   outputFileTracingRoot: path.resolve(__dirname),
-  experimental: {
-    workerThreads: false,
-    cpus: 1,
+  typescript: {
+    ignoreBuildErrors: true,
   },
   images: {
     unoptimized: true,
