@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 import path from "path";
 
+// Restrict Rust / Tokio / Libuv threadpool sizes to 1 for CloudLinux LVE NPROC thread limits
+process.env.TOKIO_WORKER_THREADS = "1";
+process.env.RAYON_NUM_THREADS = "1";
+process.env.UV_THREADPOOL_SIZE = "1";
+
 const nextConfig: NextConfig = {
   // Limit spawned worker processes for CloudLinux LVE NPROC limits
   experimental: {
