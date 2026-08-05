@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
+    "build": "cross-env UV_THREADPOOL_SIZE=1 TOKIO_WORKER_THREADS=1 RAYON_NUM_THREADS=1 SWC_NUM_WORKERS=1 NODE_OPTIONS=\"--max-old-space-size=2048\" next build --webpack",
     "start": "node server.js",
     "lint": "eslint"
   },
@@ -15,6 +15,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.20",
+    "cross-env": "^10.1.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "16.2.12",
     "framer-motion": "^12.42.2",
