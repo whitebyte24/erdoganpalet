@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env UV_THREADPOOL_SIZE=1 TOKIO_WORKER_THREADS=1 RAYON_NUM_THREADS=1 SWC_NUM_WORKERS=1 NODE_OPTIONS=\"--max-old-space-size=2048\" next build --webpack",
+    "build": "cross-env UV_THREADPOOL_SIZE=1 TOKIO_WORKER_THREADS=1 RAYON_NUM_THREADS=1 SWC_NUM_WORKERS=1 NEXT_PRIVATE_BUILD_WORKER=0 NEXT_CPU_COUNT=1 NEXT_MAX_WORKERS=1 NODE_OPTIONS=\"--max-old-space-size=2048\" next build --webpack",
     "start": "node server.js",
     "lint": "eslint"
   },
