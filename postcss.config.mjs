@@ -3,7 +3,8 @@ const require = createRequire(import.meta.url);
 
 const config = {
   plugins: {
-    [require.resolve('@tailwindcss/postcss')]: {},
+    [require.resolve('tailwindcss')]: {},
+    [require.resolve('autoprefixer')]: {},
   },
 };
 

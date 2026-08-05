@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
     config.resolve = config.resolve || {};
     config.resolve.alias = config.resolve.alias || {};
     config.resolve.alias['@'] = path.resolve(__dirname, 'src');
-    config.resolve.alias['@tailwindcss/postcss'] = path.resolve(__dirname, 'node_modules/@tailwindcss/postcss');
+    config.resolve.alias['tailwindcss'] = path.resolve(__dirname, 'node_modules/tailwindcss');
     return config;
   },
   images: {
