@@ -59,6 +59,7 @@ Thumbs.db
 # AI agent & IDE scratch config
 .gemini/
 skills/
+skills-lock.json
 mcp_config.json
 
 # Testing & Coverage
