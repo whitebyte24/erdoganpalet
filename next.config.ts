@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   experimental: {
     cpus: 1,
     webpackBuildWorker: false,
+    workerThreads: true,
   },
   outputFileTracingExcludes: {
     '*': ['**/*'],
