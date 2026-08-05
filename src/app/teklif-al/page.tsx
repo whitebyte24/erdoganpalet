@@ -5,7 +5,7 @@ import { ShieldCheck, Truck, Clock, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Teklif Al | ERDOĞAN PALET A.Ş.",
-  description: "Anında ahşap palet fiyat teklifi alın. EPAL euro palet, CP palet, ISPM-15 ihracat paletleri ve özel ebatlı ambalaj çözümleri.",
+  description: "Anında ahşap palet fiyat teklifi alın. Euro palet, CP palet, ikinci el palet alım satımı ve özel ebatlı ahşap ambalaj çözümleri.",
   openGraph: {
     title: "Teklif Al | ERDOĞAN PALET A.Ş.",
     description: "Online palet fiyat teklif formu.",
@@ -29,8 +29,8 @@ export default function TeklifAlPage() {
 
           <div className="bg-white p-4 rounded-2xl border border-gray-200 text-center space-y-1">
             <ShieldCheck className="w-6 h-6 text-[#1F6B52] mx-auto" />
-            <h4 className="text-xs font-bold text-[#0F3D2E]">ISPM-15 Dahil</h4>
-            <p className="text-[11px] text-gray-500">Fırınlı gümrük garantili</p>
+            <h4 className="text-xs font-bold text-[#0F3D2E]">Kaliteli Ahşap</h4>
+            <p className="text-[11px] text-gray-500">Sağlam ve güvenli</p>
           </div>
 
           <div className="bg-white p-4 rounded-2xl border border-gray-200 text-center space-y-1">
@@ -54,4 +54,3 @@ export default function TeklifAlPage() {
     </main>
   );
 }
-

@@ -7,7 +7,7 @@ import { CtaSection } from '@/components/CtaSection';
 
 export const metadata: Metadata = {
   title: "Hakkımızda | ERDOĞAN PALET A.Ş.",
-  description: "20 yılı aşkın tecrübemiz, 10.000 m² kapalı üretim tesisimiz ve ISPM-15 sertifikalı ısıl işlem fırınlarımız ile Türkiye'nin lider ahşap palet üreticisi.",
+  description: "11 yılı aşkın tecrübemiz ve kaliteli ahşap üretimimiz ile Türkiye'nin güvenilir ahşap palet üreticisi ve ikinci el palet sağlayıcısı.",
   openGraph: {
     title: "Hakkımızda | ERDOĞAN PALET A.Ş.",
     description: "ERDOĞAN PALET kurumsal şirket hikayesi, kalite politikası, vizyon ve misyonu.",
@@ -28,10 +28,10 @@ export default function HakkimizdaPage() {
               Kurumsal Profil
             </span>
             <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-              20 Yılı Aşkın Ahşap Sanayii Deneyimi
+              11 Yılı Aşkın Ahşap Sanayii Deneyimi
             </h1>
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
-              Türkiye'nin ve dünyanın önde gelen sanayi kuruluşlarına EPAL standartlarında, sürdürülebilir ve yüksek mukavemetli ahşap ambalaj ve palet çözümleri sunuyoruz.
+              Türkiye'nin önde gelen sanayi kuruluşlarına yüksek standartlarda, sürdürülebilir ve yüksek mukavemetli ahşap ambalaj, palet ve ikinci el palet çözümleri sunuyoruz.
             </p>
           </div>
         </div>
@@ -43,22 +43,22 @@ export default function HakkimizdaPage() {
               Hikayemiz
             </span>
             <h2 className="text-3xl font-extrabold text-[#0F3D2E]">
-              Ormandan Gümrük Kapısına Güvenli Lojistik
+              Ormandan Teslimat Noktasına Güvenli Lojistik
             </h2>
             <p className="text-gray-700 text-base leading-relaxed">
-              2004 yılında kurulan <strong>ERDOĞAN PALET A.Ş.</strong>, küçük bir ahşap atölyesinden bugün 10.000 m² kapalı alana sahip modern, robotik otomasyonlu bir üretim tesisine dönüşmüştür. 
+              11 yılı aşkın üretim ve sektör tecrübesine sahip <strong>ERDOĞAN PALET A.Ş.</strong>, ahşap palet imalatı ve ikinci el palet alım satımında güvenilir çözümler sunmaktadır.
             </p>
             <p className="text-gray-600 text-sm leading-relaxed">
-              EPAL (Avrupa Palet Birliği) resmi lisansına ve Tarım ve Orman Bakanlığı ISPM-15 ısıl işlem yetki belgesine sahip olan tesisimiz, yıllık 1.500.000 adet palet üretim kapasitesiyle Türkiye'nin 81 iline ve yurt dışı pazarlarına kesintisiz hizmet vermektedir.
+              Yıllık 630.000+ adet palet üretim kapasitesiyle Türkiye'nin 81 ilindeki sanayi kuruluşlarına kesintisiz hizmet vermektedir.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4 border-t border-gray-200">
               <div className="bg-white p-4 rounded-xl border border-gray-200">
-                <span className="text-2xl font-black text-[#0F3D2E]">10.000 m²</span>
-                <span className="block text-xs text-gray-500 font-semibold mt-0.5">Kapalı Tesis Alanı</span>
+                <span className="text-2xl font-black text-[#0F3D2E]">11+</span>
+                <span className="block text-xs text-gray-500 font-semibold mt-0.5">Yıllık Deneyim</span>
               </div>
               <div className="bg-white p-4 rounded-xl border border-gray-200">
-                <span className="text-2xl font-black text-[#D9A441]">1.5 Mn+</span>
+                <span className="text-2xl font-black text-[#D9A441]">630.000+</span>
                 <span className="block text-xs text-gray-500 font-semibold mt-0.5">Yıllık Üretim Kapasitesi</span>
               </div>
             </div>
@@ -67,23 +67,23 @@ export default function HakkimizdaPage() {
           <div className="lg:col-span-5">
             <div className="bg-[#0F3D2E] text-white p-8 rounded-3xl space-y-6 shadow-xl relative overflow-hidden">
               <Factory className="w-16 h-16 text-[#D9A441]/30 absolute top-4 right-4" />
-              <h3 className="text-xl font-bold text-[#D9A441]">Tesis Teknolojimiz</h3>
+              <h3 className="text-xl font-bold text-[#D9A441]">Üretim Gücümüz</h3>
               <ul className="space-y-3 text-xs text-gray-200">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Tam Otomatik Robotik Çakım Hatları</span>
+                  <span>Yüksek Kapasiteli Ahşap Çakım Hatları</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Endüstriyel Bilgisayarlı Fırınlı Kurutma Tesisleri</span>
+                  <span>Milimetrik Kereste Dilme Sistemleri</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Milimetrik Lazerli Kereste Dilme Sistemleri</span>
+                  <span>İkinci El Palet Alım Satım ve Bakım Merkezi</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Özmal Lojistik Tır ve Kamyon Filosu</span>
+                  <span>Özmal Lojistik Filosu</span>
                 </li>
               </ul>
             </div>
@@ -98,7 +98,7 @@ export default function HakkimizdaPage() {
             </div>
             <h3 className="text-2xl font-bold text-[#0F3D2E]">Misyonumuz</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Müşterilerimizin yük ve depolama süreçlerini en güvenli, en dayanıklı ve uluslararası standartlara en uygun ahşap paletler ile desteklemek; sıfır hata ve zamanında teslimat ilkesiyle sanayimize güç katmaktır.
+              Müşterilerimizin yük ve depolama süreçlerini en güvenli, en dayanıklı ahşap paletler ve bütçe dostu ikinci el çözümler ile desteklemek; zamanında teslimat ilkesiyle sanayimize güç katmaktır.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function HakkimizdaPage() {
             </div>
             <h3 className="text-2xl font-bold text-[#0F3D2E]">Vizyonumuz</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Sürdürülebilir orman kaynaklarını en verimli teknolojiyle işleyerek, Doğu Avrupa ve Orta Doğu coğrafyasında ahşap ambalaj ve palet sektörünün en güvenilir ve yenilikçi marka lideri olmaktır.
+              Sürdürülebilir orman kaynaklarını en verimli şekilde işleyerek, ahşap ambalaj ve palet sektörünün en güvenilir ve yenilikçi markası olmaktır.
             </p>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function HakkimizdaPage() {
               <h3 className="text-xl font-bold text-[#0F3D2E]">Kalite Politikamız</h3>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Tüm ürünlerimizde ISO 9001:2015 Kalite Yönetim Sistemi uygulanmaktadır. Kereste seçiminden fırınlama nem seviyelerine, çivi çakım mukavemetinden paketlemeye kadar her palet bağımsız kalite denetçilerimiz tarafından test edilerek sertifikalandırılır.
+              Kaliteli ahşap malzeme ve sağlam işçilik anlayışıyla uzun ömürlü paletler üretiyoruz. Kereste seçiminden çivi çakım mukavemetine kadar her palet kontrol edilerek teslim edilir.
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function HakkimizdaPage() {
               <h3 className="text-xl font-bold text-[#0F3D2E]">Sürdürülebilirlik & Çevre</h3>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Kullandığımız tüm hammaddeler sertifikalı endüstriyel orman alanlarından (FSC / PEFC) temin edilmektedir. Doğal ekosisteme zarar vermeyen, %100 geri dönüştürülebilir ve karbon ayak izini minimize eden üretim süreçlerini benimsiyoruz.
+              Kullandığımız ahşap hammaddeleri sürdürülebilir orman kaynaklarından temin edilmektedir. İkinci el palet alım satımı ile ahşap kaynakların yeniden kullanımını teşvik ediyor, çevre dostu üretim anlayışını benimsiyoruz.
             </p>
           </div>
         </div>
@@ -142,4 +142,3 @@ export default function HakkimizdaPage() {
     </main>
   );
 }
-

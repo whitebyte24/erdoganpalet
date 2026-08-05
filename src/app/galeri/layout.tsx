@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Üretim Tesisi ve Saha Galerisi | ERDOĞAN PALET A.Ş.',
-  description: '10.000 m² kapalı üretim alanımız, robotiize çakım hatlarımız ve ISPM-15 ısıl işlem fırınlarımızdan detaylı kareler.',
+  description: 'Ahşap palet imalat tesisimiz, depolama alanlarımız ve lojistik filomuzdan detaylı kareler.',
   openGraph: {
     title: 'Üretim ve Depo Galerisi | ERDOĞAN PALET A.Ş.',
     description: 'ERDOĞAN PALET üretim tesisi görselleri.',

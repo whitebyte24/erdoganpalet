@@ -1,25 +1,24 @@
 export const COMPANY_INFO = {
   name: 'ERDOĞAN PALET',
   title: 'Türkiye\'nin Güvenilir Ahşap Palet Üreticisi',
-  tagline: 'Lojistik, depolama ve ihracat süreçleriniz için yüksek kaliteli ahşap palet çözümleri.',
-  phone: '+90 (212) 555 01 99',
-  whatsapp: '+90 532 555 01 99',
+  tagline: 'Lojistik, depolama ve sanayi süreçleriniz için yüksek kaliteli ahşap palet ve ikinci el palet çözümleri.',
+  phone: '0536 834 4996',
+  whatsapp: '0536 834 4996',
   email: 'info@erdoganpalet.com.tr',
   salesEmail: 'teklif@erdoganpalet.com.tr',
-  address: 'Organize Sanayi Bölgesi, 4. Cadde No: 18, İkitelli / İstanbul',
+  address: 'Kazım Karabekir Mahallesi Hilal Sokak No:12 Darıca / Kocaeli Türkiye',
   workingHours: 'Pazartesi - Cumartesi: 08:30 - 18:30',
   googleMapsUrl: 'https://maps.google.com',
   stats: [
     { value: '5.000+', label: 'Tamamlanan Sipariş', subtext: 'Zamanında teslimat oranı %99.4' },
-    { value: '20+', label: 'Yıllık Deneyim', subtext: 'Sektör lideri üretim tecrübesi' },
-    { value: '100+', label: 'Kurumsal Müşteri', subtext: 'Türkiye\'nin dev sanayi kuruluşları' },
+    { value: '11+', label: 'Yıllık Deneyim', subtext: '11 yılı aşkın üretim ve sektör tecrübesi.' },
+    { value: '630.000+', label: 'Yıllık Üretim Kapasitesi', subtext: 'Yıllık Üretim Kapasitesi' },
     { value: '81', label: 'İle Teslimat', subtext: 'Kesintisiz lojistik ağ ve adrese teslim' },
   ],
   certificates: [
-    { title: 'EPAL Lisansı', code: 'TR-482' },
-    { title: 'ISPM-15 Sertifikası', code: 'TR-34-892' },
-    { title: 'ISO 9001:2015', code: 'Kalite Yönetim Sistemi' },
-    { title: 'ISO 14001:2015', code: 'Çevre Yönetim Sistemi' },
+    { title: 'Sağlam Ahşap Malzeme', code: 'Yüksek Mukavemet' },
+    { title: 'İkinci El Palet Alım Satım', code: 'İhtiyaca Uygun Çözümler' },
+    { title: 'Geniş Ürün Yelpazesi', code: 'Standart ve Özel Ebat' },
     { title: 'FSC Sertifikası', code: 'Sürdürülebilir Orman Yönetimi' }
   ]
 };
@@ -34,25 +33,25 @@ export const PROCESS_STEPS = [
   {
     number: '02',
     title: 'Hassas Kesim',
-    description: 'Son teknoloji tam otomatik hızarlı makinelerde milimetrik ölçü toleranslarıyla kesim gerçekleştirilir.',
+    description: 'Hızarlı makinelerimizde milimetrik ölçü toleranslarıyla kesim gerçekleştirilir.',
     icon: 'Ruler'
   },
   {
     number: '03',
-    title: 'Otomatik Montaj',
-    description: 'Pnomatik otomatik çakım hatlarında lisanslı burulmuş çivilerle maksimum bağlantı sağlamlığı verilir.',
+    title: 'Kaliteli Üretim',
+    description: 'Kaliteli ahşap malzeme ve sağlam işçilik anlayışıyla uzun ömürlü paletler üretiyoruz.',
     icon: 'Hammer'
   },
   {
     number: '04',
-    title: 'ISPM-15 Kalite Kontrol',
-    description: 'Fırınlama tesisimizde ahşabın öz sıcaklığı 56°C üzerinde tutularak bitki sağlığı kontrolleri yapılır.',
+    title: 'Kalite Kontrol',
+    description: 'Üretimi tamamlanan paletler sağlamlık ve ölçü kontrolünden geçirilerek kalite standartları doğrulanır.',
     icon: 'ShieldCheck'
   },
   {
     number: '05',
     title: 'Paketleme & İstifleme',
-    description: 'Nem ölçümü onaylanan paletler standart çemberli paketler halinde sevkıyata hazırlanır.',
+    description: 'Kontrolleri tamamlanan paletler standart paketler halinde sevkiyata hazırlanır.',
     icon: 'PackageCheck'
   },
   {
@@ -67,13 +66,13 @@ export const WHY_US_FEATURES = [
   {
     id: 'kalite',
     title: 'Kaliteli Hammadde',
-    description: 'Birinci sınıf budaksız fırınlanmış çam ve göknar kereste ile yüksek taşıma direnci.',
+    description: 'Birinci sınıf çam ve göknar kereste ile yüksek taşıma direnci.',
     icon: 'Award'
   },
   {
-    id: 'otomasyon',
-    title: 'Modern Üretim',
-    description: 'Tam otomatik çakım hatları ve robotik istifleme makineleri ile milimetrik standart.',
+    id: 'uretim',
+    title: 'Kaliteli Üretim',
+    description: 'Kaliteli ahşap malzeme ve sağlam işçilik anlayışıyla uzun ömürlü paletler üretiyoruz.',
     icon: 'Cpu'
   },
   {
@@ -85,13 +84,13 @@ export const WHY_US_FEATURES = [
   {
     id: 'ozel-uretim',
     title: 'Özel Üretim',
-    description: 'Projenize özel 3D CAD tasarımı, yük mukavemet analizleri ve özel ölçü imalatı.',
+    description: 'Projenize özel ölçü imalatı ve dayanıklı tasarım çözümleri.',
     icon: 'Wrench'
   },
   {
-    id: 'ihracat',
-    title: 'İhracata Uygunluk',
-    description: '%100 ISPM-15 fırınlanmış, IPPC damgalı gümrük garantili ihracat paletleri.',
+    id: 'ikinci-el',
+    title: 'İkinci El Palet Alım Satımı',
+    description: 'Kullanılmış ahşap palet alım ve satımı yapıyoruz. İhtiyaca uygun ikinci el palet çözümleri sunuyoruz.',
     icon: 'Globe'
   },
   {
@@ -108,7 +107,7 @@ export const TESTIMONIALS = [
     name: 'Mehmet Yılmaz',
     role: 'Satın Alma Müdürü',
     company: 'Anadolu Lojistik A.Ş.',
-    comment: 'ERDOĞAN PALET ile 4 yıldır çalışıyoruz. EPAL paletlerdeki standart kaliteleri ve acil siparişlerimizdeki hızlı teslimatları sayesinde tedarik zincirimizde hiç aksama yaşamadık.',
+    comment: 'ERDOĞAN PALET ile 4 yıldır çalışıyoruz. Ahşap paletlerdeki standart kaliteleri ve acil siparişlerimizdeki hızlı teslimatları sayesinde tedarik zincirimizde hiç aksama yaşamadık.',
     rating: 5
   },
   {
@@ -116,7 +115,7 @@ export const TESTIMONIALS = [
     name: 'Ayşe Karaca',
     role: 'Tedarik Zinciri Direktörü',
     company: 'Global Kimya Sanayi',
-    comment: 'İhracat yüklemelerimiz için CP-1 ve ISPM-15 paletleri temin ediyoruz. Gümrüklerde sertifika konusunda tek bir pürüz dahi yaşamadık. Kesinlikle tavsiye ederim.',
+    comment: 'Fabrikamız ve lojistik süreçlerimiz için ahşap ve ikinci el paletler temin ediyoruz. Kalite ve zamanında teslimat konusunda çok memnun kaldık.',
     rating: 5
   },
   {
@@ -124,8 +123,7 @@ export const TESTIMONIALS = [
     name: 'Selim Öztürk',
     role: 'Fabrika Müdürü',
     company: 'Ege Seramik A.Ş.',
-    comment: 'Ağır yük paleti taleplerimizde ürünlerimize özel çizim yapıp ürettiler. 4 tona yakın yüklerde bile hiç sehim yapmıyor. Profesyonellikleri taktire şayan.',
+    comment: 'Ağır yük paleti taleplerimizde ürünlerimize özel imalat yapıp ürettiler. 4 tona yakın yüklerde bile yüksek performans sağlıyor. Profesyonellikleri takdire şayan.',
     rating: 5
   }
 ];
-

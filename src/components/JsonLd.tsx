@@ -15,7 +15,7 @@ export const JsonLd: React.FC = () => {
     address: {
       '@type': 'PostalAddress',
       streetAddress: COMPANY_INFO.address,
-      addressLocality: 'İstanbul',
+      addressLocality: 'Darıca / Kocaeli',
       addressCountry: 'TR'
     },
     openingHoursSpecification: {
@@ -26,11 +26,12 @@ export const JsonLd: React.FC = () => {
     },
     priceRange: '$$',
     knowsAbout: [
-      'EPAL Euro Palet',
-      'ISPM-15 Isıl İşlemli Palet',
+      'Euro Palet',
+      'İkinci El Palet Alım Satımı',
+      'Ahşap Palet',
       'CP Palet',
-      'Ahşap Ambalaj Sandığı',
-      'Özel Ölçü Palet İmalatı'
+      'Özel Ölçü Palet İmalatı',
+      'Ağır Yük Paleti'
     ]
   };
 
@@ -41,4 +42,3 @@ export const JsonLd: React.FC = () => {
     />
   );
 };
-

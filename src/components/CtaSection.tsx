@@ -25,7 +25,7 @@ export const CtaSection: React.FC = () => {
           </h2>
 
           <p className="text-gray-200 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-            İster standart EPAL euro palet, ister ihracata özel ISPM-15 fırınlanmış ürünler veya tonajlı makinelerinize özel ölçü imalat. Uzman ekibimiz 2 saat içinde teklifinizi hazırlasın.
+            İster standart euro palet, ister ikinci el palet alım satımı veya tonajlı makinelerinize özel ölçü imalat. Uzman ekibimiz 2 saat içinde teklifinizi hazırlasın.
           </p>
 
           {/* Dönüşüm Butonları */}
@@ -60,4 +60,3 @@ export const CtaSection: React.FC = () => {
     </section>
   );
 };
-

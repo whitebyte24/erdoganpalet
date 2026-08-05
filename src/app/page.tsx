@@ -10,20 +10,20 @@ import { CtaSection } from '@/components/CtaSection';
 
 export const metadata: Metadata = {
   title: "ERDOĞAN PALET | Türkiye'nin Güvenilir Ahşap Palet Üreticisi",
-  description: "EPAL euro palet, CP palet, ISPM-15 ısıl işlemli ihracat paletleri ve özel ebatlı ahşap karkas üretimi. Türkiye genelinde 81 ile hızlı teslimat garantisi.",
+  description: "Euro palet, CP palet, ikinci el palet alım satımı ve özel ebatlı ahşap karkas üretimi. Türkiye genelinde 81 ile hızlı teslimat garantisi.",
   keywords: [
     "euro palet",
-    "epal palet",
     "ahşap palet üreticisi",
-    "ispm15 palet",
+    "ikinci el palet",
+    "ikinci el palet alım satım",
     "cp palet",
-    "ihracat paleti",
     "özel ölçü palet",
-    "palet imalatı istanbul"
+    "palet imalatı kocaeli",
+    "palet imalatı darıca"
   ],
   openGraph: {
     title: "ERDOĞAN PALET | Türkiye'nin Güvenilir Ahşap Palet Üreticisi",
-    description: "Lojistik, depolama ve ihracat süreçleriniz için yüksek kaliteli EPAL & ISPM-15 sertifikalı ahşap palet çözümleri.",
+    description: "Lojistik, depolama ve sanayi süreçleriniz için yüksek kaliteli ahşap palet ve ikinci el palet çözümleri.",
     locale: "tr_TR",
     type: "website",
   }
@@ -42,4 +42,3 @@ export default function HomePage() {
     </main>
   );
 }
-

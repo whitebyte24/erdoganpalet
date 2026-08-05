@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
             {/* Üst Sertifika Etiketi */}
             <div className="inline-flex items-center gap-2 bg-[#0F3D2E]/5 border border-[#0F3D2E]/15 px-4 py-2 rounded-full text-xs font-bold text-[#0F3D2E]">
               <ShieldCheck className="w-4 h-4 text-[#D9A441]" />
-              <span>EPAL & ISPM-15 Lisanslı Yerli İmalatçı</span>
+              <span>Yüksek Kaliteli Ahşap Palet İmalatçısı</span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#D9A441] animate-ping" />
             </div>
 
@@ -37,14 +37,14 @@ export const Hero: React.FC = () => {
 
             {/* Alt Başlık */}
             <p className="text-lg sm:text-xl text-gray-700 leading-relaxed font-normal max-w-2xl">
-              Lojistik, depolama ve ihracat süreçleriniz için yüksek kaliteli ahşap palet çözümleri. EPAL euro paletlerden özel ebatlı sanayi karkaslarına kadar tam otomasyonlu üretim.
+              Lojistik, depolama ve sanayi süreçleriniz için yüksek kaliteli ahşap palet çözümleri. Ahşap paletlerden özel ebatlı sanayi karkaslarına ve ikinci el palet çözümlerine kadar güvenilir üretim.
             </p>
 
             {/* Öne Çıkan Özellik Maddeleri */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
               <div className="flex items-center gap-2 text-sm font-semibold text-gray-800">
                 <CheckCircle2 className="w-4 h-4 text-[#1F6B52]" />
-                <span>%100 ISPM-15 Uyumlu</span>
+                <span>İkinci El Palet Alım Satımı</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold text-gray-800">
                 <CheckCircle2 className="w-4 h-4 text-[#1F6B52]" />
@@ -90,8 +90,8 @@ export const Hero: React.FC = () => {
                   <Award className="w-5 h-5 text-[#D9A441]" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-[#0F3D2E]">ISO 9001 & EPAL</h4>
-                  <p className="text-[11px] text-gray-500">Uluslararası onaylı kalite</p>
+                  <h4 className="text-xs font-bold text-[#0F3D2E]">Kaliteli Üretim</h4>
+                  <p className="text-[11px] text-gray-500">11+ Yıllık Tecrübe</p>
                 </div>
               </div>
             </div>
@@ -109,14 +109,14 @@ export const Hero: React.FC = () => {
                 <div className="w-full h-64 rounded-xl overflow-hidden bg-white shadow-inner flex items-center justify-center relative">
                   <Image
                     src="/images/epal_euro_pallet.jpg"
-                    alt="EPAL 1 Euro Palet (80x120 cm)"
+                    alt="Standart Euro Palet (80x120 cm)"
                     width={600}
                     height={400}
                     priority
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-3 left-3 bg-[#0F3D2E]/90 text-[#D9A441] text-[10px] font-extrabold uppercase px-3 py-1 rounded-md shadow backdrop-blur-sm border border-[#D9A441]/30">
-                    EPAL 1 EURO PALET (80x120 cm)
+                    STANDART EURO PALET (80x120 cm)
                   </div>
                 </div>
 
@@ -132,7 +132,7 @@ export const Hero: React.FC = () => {
                   </div>
                   <div>
                     <span className="block text-[10px] text-gray-500 font-medium">Nem Oranı</span>
-                    <span className="text-xs font-bold text-[#1F6B52]">{"< %22 Fırınlı"}</span>
+                    <span className="text-xs font-bold text-[#1F6B52]">{"< %22 Kurutulmuş"}</span>
                   </div>
                 </div>
 
@@ -150,4 +150,3 @@ export const Hero: React.FC = () => {
     </section>
   );
 };
-

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "ERDOĞAN PALET | Türkiye'nin Güvenilir Ahşap Palet Üreticisi",
     template: "%s | ERDOĞAN PALET A.Ş."
   },
-  description: "EPAL euro palet, CP palet, ISPM-15 ısıl işlemli ihracat paletleri ve özel ebatlı ahşap karkas üretimi. Türkiye genelinde 81 ile hızlı teslimat garantisi.",
+  description: "Euro palet, CP palet, ikinci el palet alım satımı ve özel ebatlı ahşap karkas üretimi. Türkiye genelinde 81 ile hızlı teslimat garantisi.",
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   },
   keywords: [
     "euro palet",
-    "epal palet",
     "ahşap palet üreticisi",
-    "ispm15 palet",
+    "ikinci el palet",
+    "ikinci el palet alım satım",
     "cp palet",
-    "ihracat paleti",
     "özel ölçü palet",
-    "palet imalatı istanbul"
+    "palet imalatı kocaeli",
+    "palet imalatı darıca"
   ],
   authors: [{ name: "ERDOĞAN PALET A.Ş." }],
   creator: "ERDOĞAN PALET",
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://www.erdoganpalet.com.tr",
     title: "ERDOĞAN PALET | Türkiye'nin Güvenilir Ahşap Palet Üreticisi",
-    description: "Lojistik, depolama ve ihracat süreçleriniz için yüksek kaliteli EPAL & ISPM-15 sertifikalı ahşap palet çözümleri.",
+    description: "Lojistik, depolama ve sanayi süreçleriniz için yüksek kaliteli ahşap palet ve ikinci el palet çözümleri.",
     siteName: "ERDOĞAN PALET",
   },
   twitter: {
     card: "summary_large_image",
     title: "ERDOĞAN PALET | Ahşap Palet Sanayi",
-    description: "Türkiye'nin lider EPAL & ISPM-15 sertifikalı ahşap palet üreticisi.",
+    description: "Türkiye'nin güvenilir ahşap palet üreticisi ve ikinci el palet çözümleri.",
   },
 };
 
@@ -78,4 +78,3 @@ export default function RootLayout({
     </html>
   );
 }
-

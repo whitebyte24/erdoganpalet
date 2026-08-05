@@ -27,7 +27,7 @@ export const Process: React.FC = () => {
             6 Adımda Üretim Süreci
           </h2>
           <p className="text-gray-300 text-base leading-relaxed">
-            Ormandan fabrikaya, fabrikadan gümrük kapısına kadar sıfır hata prensibiyle uyguladığımız üretim disiplinimiz.
+            Ormandan fabrikaya, fabrikadan adrese teslim noktasına kadar sıfır hata prensibiyle uyguladığımız üretim disiplinimiz.
           </p>
         </div>
 
@@ -63,4 +63,3 @@ export const Process: React.FC = () => {
     </section>
   );
 };
-

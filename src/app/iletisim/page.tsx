@@ -5,7 +5,7 @@ import { CtaSection } from '@/components/CtaSection';
 
 export const metadata: Metadata = {
   title: "İletişim | ERDOĞAN PALET A.Ş.",
-  description: "ERDOĞAN PALET İstanbul genel merkez ve fabrika iletişim bilgileri, telefon, e-posta, WhatsApp destek hattı ve yol tarifi.",
+  description: "ERDOĞAN PALET Darıca Kocaeli tesis iletişim bilgileri, telefon, e-posta, WhatsApp destek hattı ve adres bilgileri.",
   openGraph: {
     title: "İletişim | ERDOĞAN PALET A.Ş.",
     description: "ERDOĞAN PALET iletişim detayları ve direkt ulaşım bilgileri.",
@@ -29,7 +29,7 @@ export default function IletisimPage() {
               Bize Ulaşın
             </h1>
             <p className="text-gray-300 text-base leading-relaxed">
-              Palet ihtiyaçlarınız, özel ebat çizim talepleriniz veya fabrika ziyareti randevularınız için satış ekibimizle iletişime geçin.
+              Palet ihtiyaçlarınız, özel ebat talepleriniz veya ikinci el palet alım satımı için satış ekibimizle iletişime geçin.
             </p>
           </div>
         </div>
@@ -44,4 +44,3 @@ export default function IletisimPage() {
     </main>
   );
 }
-

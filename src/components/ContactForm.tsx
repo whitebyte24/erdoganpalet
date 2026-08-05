@@ -53,7 +53,7 @@ export const ContactForm: React.FC = () => {
       <div className="lg:col-span-5 space-y-8">
         <div className="bg-[#0F3D2E] text-white p-8 rounded-3xl wood-pattern space-y-6 shadow-xl">
           <div className="inline-block bg-[#D9A441] text-[#0F3D2E] text-xs font-black px-3 py-1 rounded-full uppercase">
-            Fabrika & Genel Merkez
+            Fabrika & Merkez
           </div>
 
           <h3 className="text-2xl font-black text-white">
@@ -61,7 +61,7 @@ export const ContactForm: React.FC = () => {
           </h3>
 
           <p className="text-gray-300 text-sm leading-relaxed">
-            Satış temsilcilerimiz ve fabrika teknik personelimiz sorularınızı yanıtlamak için hazırdır.
+            Satış temsilcilerimiz ve fabrika personelimiz sorularınızı yanıtlamak için hazırdır.
           </p>
 
           <div className="space-y-4 pt-4 border-t border-[#1F6B52]">
@@ -127,8 +127,8 @@ export const ContactForm: React.FC = () => {
         <div className="bg-gray-100 rounded-3xl p-6 border border-gray-200 text-center space-y-3">
           <div className="w-full h-48 bg-[#0F3D2E]/5 rounded-2xl border border-dashed border-[#0F3D2E]/30 flex flex-col items-center justify-center p-4">
             <MapPin className="w-10 h-10 text-[#0F3D2E] mb-2 animate-bounce" />
-            <span className="font-extrabold text-[#0F3D2E] text-sm">İkitelli Organize Sanayi Bölgesi</span>
-            <span className="text-xs text-gray-500">İstanbul Tesisimiz & Fırınlama Sahası</span>
+            <span className="font-extrabold text-[#0F3D2E] text-sm">Darıca / Kocaeli Tesisimiz</span>
+            <span className="text-xs text-gray-500">Ahşap Palet İmalat & Depolama Sahamız</span>
           </div>
         </div>
       </div>
@@ -265,4 +265,3 @@ export const ContactForm: React.FC = () => {
     </div>
   );
 };
-

@@ -24,11 +24,11 @@ export const FaqAccordion: React.FC = () => {
             Sıkça Sorulan Sorular (SSS)
           </h2>
           <p className="text-gray-600 text-base leading-relaxed">
-            Palet standartları, ISPM-15 ısıl işlem fırınlaması, sipariş ve teslimat süreçleri hakkında merak ettiğiniz yanıtlar.
+            Palet standartları, ikinci el palet alım satımı, sipariş ve teslimat süreçleri hakkında merak ettiğiniz yanıtlar.
           </p>
         </div>
 
-        {/* Akordeon Listesi (11 Soru) */}
+        {/* Akordeon Listesi */}
         <div className="space-y-4">
           {FAQS.map((faq: FaqItem) => {
             const isOpen = openId === faq.id;
@@ -70,4 +70,3 @@ export const FaqAccordion: React.FC = () => {
     </section>
   );
 };
-

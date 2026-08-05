@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'ERDOĞAN PALET | Ahşap Palet Sanayi',
     short_name: 'Erdoğan Palet',
-    description: 'Türkiye\'nin Lider EPAL & ISPM-15 Sertifikalı Ahşap Palet Üreticisi',
+    description: 'Türkiye\'nin Güvenilir Ahşap Palet Üreticisi ve İkinci El Palet Çözümleri',
     start_url: '/',
     display: 'standalone',
     background_color: '#FAFAF8',

@@ -27,7 +27,7 @@ export const WhyUs: React.FC = () => {
             Neden ERDOĞAN PALET?
           </h2>
           <p className="text-gray-600 text-base leading-relaxed">
-            Sektördeki 20 yılı aşkın tecrübemiz ve teknolojik altyapımızla kurumsal satın alma süreçlerinize değer katıyoruz.
+            Sektördeki 11 yılı aşkın tecrübemiz ve kaliteli ahşap imalatımızla kurumsal satın alma süreçlerinize değer katıyoruz.
           </p>
         </div>
 
@@ -57,4 +57,3 @@ export const WhyUs: React.FC = () => {
     </section>
   );
 };
-

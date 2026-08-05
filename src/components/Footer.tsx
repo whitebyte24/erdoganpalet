@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
             </Link>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              Türkiye'nin lider üreticisi olarak 20 yılı aşkın tecrübemizle EPAL euro palet, CP palet, ISPM-15 ısıl işlemli ihracat paletleri ve özel ebatlı ahşap çözümleri sunuyoruz.
+              Türkiye'nin güvenilir üreticisi olarak 11 yılı aşkın tecrübemizle ahşap palet, CP palet, ikinci el palet alım satımı ve özel ebatlı ahşap çözümleri sunuyoruz.
             </p>
 
             {/* Sertifika Rozetleri */}
@@ -93,7 +93,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2.5 text-sm text-gray-300">
               <li>
                 <Link href="/urunler?kategori=euro" className="hover:text-[#D9A441] transition-colors">
-                  EPAL Euro Paletler
+                  Euro Paletler
                 </Link>
               </li>
               <li>
@@ -107,8 +107,8 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/urunler?kategori=ihracat" className="hover:text-[#D9A441] transition-colors">
-                  ISPM-15 İhracat Paletleri
+                <Link href="/urunler?kategori=ikinci-el" className="hover:text-[#D9A441] transition-colors">
+                  İkinci El Palet Alım Satımı
                 </Link>
               </li>
               <li>
@@ -168,4 +168,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-

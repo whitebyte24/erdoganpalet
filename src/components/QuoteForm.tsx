@@ -14,10 +14,10 @@ export const QuoteForm: React.FC = () => {
     companyName: '',
     phone: '',
     email: '',
-    productType: preselectedProduct || 'EPAL 1 Euro Palet (800x1200 mm)',
+    productType: preselectedProduct || 'Euro Palet (800x1200 mm)',
     customDimensions: '800x1200 mm (Standart)',
     quantity: '500',
-    heatTreatment: true,
+    secondHandOption: false,
     message: '',
     _honeypot: ''
   });
@@ -54,7 +54,7 @@ export const QuoteForm: React.FC = () => {
           phone: formData.phone,
           email: formData.email,
           productType: formData.productType,
-          quantity: `${formData.quantity} Adet ${formData.heatTreatment ? '(ISPM-15 Isıl İşlemli)' : ''}`,
+          quantity: `${formData.quantity} Adet ${formData.secondHandOption ? '(İkinci El Palet İhtiyacı)' : ''}`,
           dimensions: formData.customDimensions,
           notes: formData.message,
           _honeypot: formData._honeypot,
@@ -103,7 +103,7 @@ export const QuoteForm: React.FC = () => {
               Teklif Talebiniz Başarıyla Alındı!
             </h4>
             <p className="text-gray-600 text-sm max-w-md mx-auto">
-              Sayın <strong className="text-[#0F3D2E]">{formData.fullName}</strong>, <strong className="text-[#0F3D2E]">{formData.companyName}</strong> firması adına oluşturduğunuz teklif talebi satış mühendislerimize iletilmiştir.
+              Sayın <strong className="text-[#0F3D2E]">{formData.fullName}</strong>, <strong className="text-[#0F3D2E]">{formData.companyName}</strong> firması adına oluşturduğunuz teklif talebi satış ekibimize iletilmiştir.
             </p>
           </div>
 
@@ -112,7 +112,7 @@ export const QuoteForm: React.FC = () => {
             <div className="flex justify-between"><span>Ürün Türü:</span> <strong className="text-gray-800">{formData.productType}</strong></div>
             <div className="flex justify-between"><span>Ölçü:</span> <strong className="text-gray-800">{formData.customDimensions}</strong></div>
             <div className="flex justify-between"><span>Adet:</span> <strong className="text-[#0F3D2E] font-extrabold">{formData.quantity} Adet</strong></div>
-            <div className="flex justify-between"><span>ISPM-15 Isıl İşlem:</span> <strong className="text-[#1F6B52]">{formData.heatTreatment ? 'Evet (Sertifikalı)' : 'Hayır'}</strong></div>
+            <div className="flex justify-between"><span>İkinci El Palet Talebi:</span> <strong className="text-[#1F6B52]">{formData.secondHandOption ? 'Evet' : 'Hayır'}</strong></div>
           </div>
 
           <button
@@ -216,7 +216,7 @@ export const QuoteForm: React.FC = () => {
                     {p.name}
                   </option>
                 ))}
-                <option value="Diğer / Özel Ölçü Palet">Diğer / Özel Ölçü Karkas</option>
+                <option value="Diğer / Özel Ölçü Palet">Diğer / Özel Ölçü Palet</option>
               </select>
             </div>
 
@@ -251,15 +251,15 @@ export const QuoteForm: React.FC = () => {
               <label className="flex items-center gap-3 p-3 bg-[#FAFAF8] rounded-xl border border-gray-200 cursor-pointer hover:bg-gray-100 transition-colors">
                 <input
                   type="checkbox"
-                  checked={formData.heatTreatment}
-                  onChange={(e) => setFormData({ ...formData, heatTreatment: e.target.checked })}
+                  checked={formData.secondHandOption}
+                  onChange={(e) => setFormData({ ...formData, secondHandOption: e.target.checked })}
                   className="w-5 h-5 accent-[#0F3D2E] rounded cursor-pointer"
                 />
                 <div>
                   <span className="text-xs font-bold text-[#0F3D2E] flex items-center gap-1">
-                    <ShieldCheck className="w-3.5 h-3.5 text-[#D9A441]" /> ISPM-15 Isıl İşlem Sertifikalı
+                    <ShieldCheck className="w-3.5 h-3.5 text-[#D9A441]" /> İkinci El Palet Alım Satımı
                   </span>
-                  <span className="text-[11px] text-gray-500 block">İhracat gümrükleri için gerekli fırınlama</span>
+                  <span className="text-[11px] text-gray-500 block">Kullanılmış palet ihtiyacı veya satışı için</span>
                 </div>
               </label>
             </div>
@@ -299,4 +299,3 @@ export const QuoteForm: React.FC = () => {
     </div>
   );
 };
-

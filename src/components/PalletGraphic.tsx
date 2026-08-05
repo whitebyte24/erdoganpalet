@@ -3,7 +3,7 @@
 import React from 'react';
 
 interface PalletGraphicProps {
-  type: 'euro' | 'standart' | 'cp' | 'ihracat' | 'ozel' | 'agir-yuk' | 'production-line' | 'storage-warehouse' | 'epal-pallet' | 'shipping-truck' | 'ispm15-oven' | 'custom-wood';
+  type: 'euro' | 'standart' | 'cp' | 'ikinci-el' | 'ihracat' | 'ozel' | 'agir-yuk' | 'production-line' | 'storage-warehouse' | 'epal-pallet' | 'shipping-truck' | 'ispm15-oven' | 'custom-wood';
   className?: string;
 }
 
@@ -15,7 +15,7 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
         {/* Shadow */}
         <ellipse cx="200" cy="225" rx="140" ry="18" fill="#111827" fillOpacity="0.12" />
         
-        {/* EPAL Wooden Pallet 3D Isometric View */}
+        {/* Wooden Pallet 3D Isometric View */}
         <g transform="translate(40, 20)">
           {/* Bottom Stringers / Skids */}
           <path d="M40 180 L180 215 L280 185 L140 150 Z" fill="#6E482D" />
@@ -26,9 +26,9 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
           {/* Left Block */}
           <path d="M60 160 L90 167 L90 182 L60 175 Z" fill="#8B5E3C" />
           <path d="M90 167 L110 162 L110 177 L90 182 Z" fill="#6E482D" />
-          {/* EPAL Stamp on Block */}
-          <rect x="65" y="165" width="18" height="8" rx="2" fill="#D9A441" />
-          <text x="67" y="171" fontSize="5" fontWeight="bold" fill="#0F3D2E">EPAL</text>
+          {/* Stamp on Block */}
+          <rect x="65" y="165" width="22" height="8" rx="2" fill="#D9A441" />
+          <text x="67" y="171" fontSize="5" fontWeight="bold" fill="#0F3D2E">PALET</text>
 
           {/* Middle Block */}
           <path d="M150 180 L180 187 L180 202 L150 195 Z" fill="#8B5E3C" />
@@ -49,17 +49,17 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
           <path d="M90 130 L240 167" stroke="#6E482D" strokeWidth="2" />
           <path d="M120 123 L270 160" stroke="#6E482D" strokeWidth="2" />
 
-          {/* EPAL Oval Certification Badge Floating */}
+          {/* Oval Certification Badge Floating */}
           <g transform="translate(230, 20)">
             <rect x="0" y="0" width="70" height="34" rx="17" fill="#0F3D2E" stroke="#D9A441" strokeWidth="2" />
-            <text x="35" y="21" textAnchor="middle" fill="#D9A441" fontSize="13" fontWeight="900" letterSpacing="1">EPAL</text>
+            <text x="35" y="21" textAnchor="middle" fill="#D9A441" fontSize="13" fontWeight="900" letterSpacing="1">EURO</text>
           </g>
           
-          {/* ISPM-15 Wheat Stamp */}
+          {/* Quality Stamp */}
           <g transform="translate(10, 20)">
             <rect x="0" y="0" width="60" height="30" rx="4" fill="#1F6B52" fillOpacity="0.9" />
-            <text x="30" y="14" textAnchor="middle" fill="#FAFAF8" fontSize="8" fontWeight="bold">TR-34-892</text>
-            <text x="30" y="23" textAnchor="middle" fill="#D9A441" fontSize="7" fontWeight="bold">HT ISPM-15</text>
+            <text x="30" y="14" textAnchor="middle" fill="#FAFAF8" fontSize="8" fontWeight="bold">ERDOĞAN</text>
+            <text x="30" y="23" textAnchor="middle" fill="#D9A441" fontSize="7" fontWeight="bold">AHŞAP PALET</text>
           </g>
         </g>
       </svg>
@@ -106,19 +106,16 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
       <svg className={className} viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="400" height="260" rx="12" fill="#0F3D2E" fillOpacity="0.06" />
         <g transform="translate(30, 25)">
-          {/* ISPM-15 Heat Treatment Chamber / Seal */}
           <rect x="20" y="30" width="300" height="170" rx="12" fill="#0F3D2E" />
           <rect x="30" y="40" width="280" height="150" rx="8" fill="#165642" stroke="#D9A441" strokeWidth="2" strokeDasharray="6 6" />
           
-          {/* Heat Waves */}
           <path d="M70 150 C75 130 85 130 90 110 C95 90 105 90 110 70" stroke="#D9A441" strokeWidth="3" strokeLinecap="round" />
           <path d="M160 150 C165 130 175 130 180 110 C185 90 195 90 200 70" stroke="#D9A441" strokeWidth="3" strokeLinecap="round" />
           <path d="M240 150 C245 130 255 130 260 110 C265 90 275 90 280 70" stroke="#D9A441" strokeWidth="3" strokeLinecap="round" />
 
-          {/* Temperature Display Badge */}
           <rect x="110" y="85" width="120" height="44" rx="8" fill="#111827" stroke="#D9A441" strokeWidth="2" />
-          <text x="170" y="106" textAnchor="middle" fill="#D9A441" fontSize="15" fontWeight="bold">56°C HT</text>
-          <text x="170" y="120" textAnchor="middle" fill="#FAFAF8" fontSize="9">ISPM-15 GARANTİLİ</text>
+          <text x="170" y="106" textAnchor="middle" fill="#D9A441" fontSize="13" fontWeight="bold">KALİTELİ AHŞAP</text>
+          <text x="170" y="120" textAnchor="middle" fill="#FAFAF8" fontSize="9">SAĞLAM ÜRETİM</text>
         </g>
       </svg>
     );
@@ -153,7 +150,7 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
       <svg className={className} viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="400" height="260" rx="12" fill="#0F3D2E" />
         <g transform="translate(30, 20)">
-          {/* Automated Conveyor Line */}
+          {/* Conveyor Line */}
           <rect x="20" y="140" width="300" height="30" rx="6" fill="#1F6B52" />
           <circle cx="50" cy="155" r="10" fill="#D9A441" />
           <circle cx="110" cy="155" r="10" fill="#D9A441" />
@@ -161,13 +158,13 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
           <circle cx="230" cy="155" r="10" fill="#D9A441" />
           <circle cx="290" cy="155" r="10" fill="#D9A441" />
 
-          {/* Robotic Arm Nailing System */}
+          {/* Nailing System */}
           <path d="M170 30 L170 90 L130 110" stroke="#D9A441" strokeWidth="6" strokeLinecap="round" />
           <rect x="110" y="105" width="40" height="20" rx="4" fill="#FAFAF8" />
           
           {/* Pallet Moving on Line */}
           <rect x="190" y="120" width="80" height="20" rx="3" fill="#8B5E3C" />
-          <text x="170" y="200" textAnchor="middle" fill="#FAFAF8" fontSize="13" fontWeight="bold">Otomatik Robotik Çakım Hattı</text>
+          <text x="170" y="200" textAnchor="middle" fill="#FAFAF8" fontSize="13" fontWeight="bold">Ahşap Palet Çakım Tesisimiz</text>
         </g>
       </svg>
     );
@@ -188,7 +185,7 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
 
           {/* Logo on Truck Body */}
           <text x="110" y="75" textAnchor="middle" fill="#0F3D2E" fontSize="15" fontWeight="900">ERDOĞAN PALET</text>
-          <text x="110" y="95" textAnchor="middle" fill="#1F6B52" fontSize="9" fontWeight="bold">81 İLE TESLİMAT FILOSU</text>
+          <text x="110" y="95" textAnchor="middle" fill="#1F6B52" fontSize="9" fontWeight="bold">81 İLE TESLİMAT FİLOSU</text>
         </g>
       </svg>
     );
@@ -215,7 +212,7 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
           <rect x="145" y="90" width="85" height="18" rx="2" fill="#A7744F" />
           <rect x="35" y="140" width="85" height="18" rx="2" fill="#8B5E3C" />
 
-          <text x="170" y="205" textAnchor="middle" fill="#FAFAF8" fontSize="12" fontWeight="bold">10.000 m² Kapalı Depo Sahası</text>
+          <text x="170" y="205" textAnchor="middle" fill="#FAFAF8" fontSize="12" fontWeight="bold">Depo Sahamız</text>
         </g>
       </svg>
     );
@@ -237,4 +234,3 @@ export const PalletGraphic: React.FC<PalletGraphicProps> = ({ type, className = 
     </svg>
   );
 };
-

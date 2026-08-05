@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { Search, Filter, Layers, CheckCircle2 } from 'lucide-react';
+import { Search, Filter, Layers } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '@/data/products';
 import { ProductCard } from '@/components/ProductCard';
 import { CtaSection } from '@/components/CtaSection';
@@ -42,7 +42,7 @@ function UrunlerContent() {
               Ahşap Palet Çözümlerimiz
             </h1>
             <p className="text-gray-300 text-base leading-relaxed">
-              EPAL lisanslı euro paletler, CP kimya paletleri, ISPM-15 ısıl işlemli ihracat paletleri ve projenize özel tonajlı imalat çözümleri.
+              Euro paletler, CP kimya paletleri, ikinci el palet alım satımı ve projenize özel ahşap imalat çözümleri.
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ function UrunlerContent() {
               <Search className="w-5 h-5 text-gray-400 absolute left-4 top-3.5" />
               <input
                 type="text"
-                placeholder="Palet adı veya ölçü ara (Örn: 80x120, EPAL...)"
+                placeholder="Palet adı veya ölçü ara (Örn: 80x120, Euro...)"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-4 py-3 rounded-xl border border-gray-300 focus:border-[#0F3D2E] text-sm outline-none bg-gray-50/50"
@@ -132,4 +132,3 @@ export default function UrunlerPage() {
     </Suspense>
   );
 }
-

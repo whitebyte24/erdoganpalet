@@ -9,10 +9,10 @@ const CATEGORIES_DATA = [
   {
     id: 'euro',
     title: 'Euro Palet',
-    subtitle: 'EPAL Lisanslı & Uluslararası Uyumlu',
-    description: 'Avrupa Palet Birliği (EPAL) standartlarında üretilen 80x120 cm ve 100x120 cm tescilli paletler.',
-    specs: ['EPAL Sertifikalı', '4.000 kg Statik Yük', 'Fırınlanmış Nem Kurutması'],
-    slug: 'epal-1-euro-palet',
+    subtitle: 'Avrupa Standartlarında Dayanıklı Yapı',
+    description: 'Avrupa ölçü standartlarında üretilen 80x120 cm ve 100x120 cm paletler.',
+    specs: ['Avrupa Ölçü Standartı', '4.000 kg Statik Yük', 'Kurutulmuş Ahşap Malzeme'],
+    slug: 'euro-palet-80-120',
     type: 'euro' as const
   },
   {
@@ -34,18 +34,18 @@ const CATEGORIES_DATA = [
     type: 'cp' as const
   },
   {
-    id: 'ihracat',
-    title: 'İhracat Paleti',
-    subtitle: 'ISPM-15 Isıl İşlemli & Gümrük Garantili',
-    description: 'Dünya genelinde sorunsuz gümrük geçişi sağlayan IPPC resmi damgalı fırınlanmış paletler.',
-    specs: ['ISPM-15 Sertifikalı', 'Böcek ve Küf Koruması', 'Nem Oranı <%18'],
-    slug: 'ihracat-ispm15-ahsap-palet',
+    id: 'ikinci-el',
+    title: 'İkinci El Palet',
+    subtitle: 'İkinci El Palet Alım Satımı',
+    description: 'Kullanılmış ahşap palet alım ve satımı yapıyoruz. İhtiyaca uygun ikinci el palet çözümleri sunuyoruz.',
+    specs: ['Kontrol Edilmiş Sağlam Yapı', 'Ekonomik Fiyat Avantajı', 'Hızlı Stok Teslimat'],
+    slug: 'ikinci-el-ahsap-palet',
     type: 'ihracat' as const
   },
   {
     id: 'ozel',
     title: 'Özel Ölçü Palet',
-    subtitle: 'Terzi Usulü 3D CAD Tasarımı',
+    subtitle: 'Terzi Usulü Özel İmalat',
     description: 'Standart dışı tonajlı makineler, borular ve hassas yükler için projeye özel mühendislik imalatı.',
     specs: ['İstenilen Ebatta İmalat', 'Yük Analiz Destekli', 'Yüksek Tonaj Karkas'],
     slug: 'ozel-olcu-ahsap-palet-uretimi',
@@ -159,4 +159,3 @@ export const ProductCategories: React.FC = () => {
     </section>
   );
 };
-

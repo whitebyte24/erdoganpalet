@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 text-[#D9A441] font-medium">
-              <ShieldCheck className="w-4 h-4" /> EPAL & ISPM-15 Lisanslı Üretici
+              <ShieldCheck className="w-4 h-4" /> Kaliteli Ahşap & İkinci El Palet Çözümleri
             </span>
             <span className="text-gray-300">|</span>
             <span className="text-gray-300">
@@ -179,4 +179,3 @@ export const Header: React.FC = () => {
     </>
   );
 };
-

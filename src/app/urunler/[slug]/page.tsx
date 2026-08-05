@@ -2,7 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight, ShieldCheck, CheckCircle2, Weight, Layers, Ruler, Package, Award } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ShieldCheck, CheckCircle2, Ruler, Award } from 'lucide-react';
 import { PRODUCTS } from '@/data/products';
 import { PalletGraphic } from '@/components/PalletGraphic';
 import { CtaSection } from '@/components/CtaSection';
@@ -106,7 +106,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </div>
                 <div className="flex items-center gap-2 text-xs font-bold text-[#0F3D2E]">
                   <Award className="w-4 h-4 text-[#1F6B52]" />
-                  <span>ISPM-15 Isıl İşlemli</span>
+                  <span>Yüksek Dayanıklı Ahşap</span>
                 </div>
               </div>
             </div>

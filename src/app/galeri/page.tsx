@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from 'react';
 import { GALLERY_ITEMS, GALLERY_CATEGORIES, GalleryItem } from '@/data/gallery';
 import { PalletGraphic } from '@/components/PalletGraphic';
-import { Eye, X, ShieldCheck } from 'lucide-react';
+import { Eye, X } from 'lucide-react';
 import { CtaSection } from '@/components/CtaSection';
 
 export default function GaleriPage() {
@@ -29,7 +29,7 @@ export default function GaleriPage() {
               Üretim Tesisi ve Saha Galerisi
             </h1>
             <p className="text-gray-300 text-base leading-relaxed">
-              Tam otomatik robotik çakım hatlarımız, ISPM-15 ısıl işlem fırınlarımız, kapalı depolama sahamız ve lojistik filomuzdan detaylı görseller.
+              Ahşap palet çakım hatlarımız, ikinci el palet stok alanlarımız, kapalı depolama sahamız ve lojistik filomuzdan detaylı görseller.
             </p>
           </div>
         </div>
@@ -156,4 +156,3 @@ export default function GaleriPage() {
     </main>
   );
 }
-
